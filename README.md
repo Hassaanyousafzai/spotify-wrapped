@@ -18,28 +18,26 @@ This project allows users to view their Spotify Wrapped data, including their to
 
 ## Installation
 
-### 1. Clone the repository
-Replace it with the right repository link
+1. Clone the repository:
     ```bash
     git clone https://github.com/your-username/spotify-wrapped-app.git
     cd spotify-wrapped-app
 
-### 2. Install the necessary libraries
-Install the required Python libraries using pip:
+2. Install the necessary libraries using pip:
     ```bash
     pip install -r requirements.txt
 
-### 4. Spotify API Credentials
+3. Spotify API Credentials
 Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) to create a new app and get your `CLIENT_SERVER_ID` and `CLIENT_SECRET_ID`.
 Set the `REDIRECT_URI` in your app settings to match the redirect URI in the code.
 
-### 5. Google Sheets API Setup
+4. Google Sheets API Setup
 Follow the instructions in the [Google Sheets API](https://gspread.readthedocs.io/en/latest/) documentation to set up a Google Sheets API project.
 Download the `credentials.json` file and rename it to whatever you want.
 
 Share the Google Sheet you want to use with the service account email provided by Google Sheets API.
 
-### 6. Run the app
+5. Run the app
 After setting up the credentials, you can run the app:
     ```bash
     python spotify_wrapped.py
